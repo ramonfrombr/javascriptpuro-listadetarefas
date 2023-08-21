@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: white;
+    border: 1px solid gray;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+form {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 1em;
+    display: flex;
+}
+
+input {
+    flex: 1;
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+li input {
+    flex: 1;
+    border: none;
+    color: black;
+}
+
+button {
+   color: white;
+   border: none;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.botao-adicionar {
+    background-color: green;
+    font-size: 1.5em;
+}
+
+.botao-editar {
+    background-color: blue;
+    font-size: 1em;
+}
+
+.botao-apagar {
+    background-color: red;
+    font-size: 1em;
+}
+
+.desativado {
+    background-color: gray !important;
+}
+
+.container-botoes-editar-apagar {
+    display: flex;
+    gap: 5px;
+}
+
+.botao-salvar {
+    background-color: green;
+    font-size: 1em;
+}
+
+.botao-cancelar {
+    background-color: gray;
+    font-size: 1em;
+}
+
+.container-botoes-salvar-cancelar {
+    display: flex;
+    gap: 5px;
+}
+
+.esconder-botoes {
+    display: none !important;
+}

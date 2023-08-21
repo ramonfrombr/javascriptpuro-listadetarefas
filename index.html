@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="text" id="input-novo-item" />
+            <button disabled class="botao-adicionar desativado">+</button>
+        </form>
+
+        <ul>
+            <li>
+                <input value="Estudar JavaScript" disabled type="text">
+                <div class="container-botoes-editar-apagar">
+                    <button class="botao-editar">Editar</button>
+                    <button class="botao-apagar">Apagar</button>
+                </div>
+
+                <div class="container-botoes-salvar-cancelar esconder-botoes">
+                    <button class="botao-salvar">Salvar</button>
+                    <button class="botao-cancelar">Cancelar</button>
+                </div>
+            </li>
+
+            <li>
+                <input value="Estudar HTML" disabled type="text">
+                <div class="container-botoes-editar-apagar">
+                    <button class="botao-editar">Editar</button>
+                    <button class="botao-apagar">Apagar</button>
+                </div>
+
+                <div class="container-botoes-salvar-cancelar esconder-botoes">
+                    <button class="botao-salvar">Salvar</button>
+                    <button class="botao-cancelar">Cancelar</button>
+                </div>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
