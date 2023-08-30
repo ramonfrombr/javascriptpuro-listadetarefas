@@ -5,4 +5,4 @@ Este repositório contém o código do projeto de lista de tarefas implementado 
 Este tutorial foi publicado no canal do FreeCodeCamp em Português.
 
 ### Tutorial
-[![Tutorial Rest API TypeScript NodeJS](https://img.youtube.com/vi/jdSm-3cFsMg/0.jpg)](https://www.youtube.com/watch?v=jdSm-3cFsMg)
+[![Tutorial Lista de Tarefas](https://img.youtube.com/vi/1loPW0w2v7w/0.jpg)](https://www.youtube.com/watch?v=1loPW0w2v7w)
